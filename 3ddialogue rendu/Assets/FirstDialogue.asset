@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab521c628771e143bf5c58c561e45a2, type: 3}
+  m_Name: FirstDialogue
+  m_EditorClassIdentifier: 
+  DialogueSegments:
+  - dialogueText: Bienvenu dans un jeux de dialogue
+    dialogueDisplayTime: 2
+    dialogueChoices: []
+  - dialogueText: "Vous pouvez admirer un magnifique couch\xE9 de soleil"
+    dialogueDisplayTime: 2
+    dialogueChoices: []
+  - dialogueText: voulez vous entrez dans le jeux
+    dialogueDisplayTime: 2
+    dialogueChoices:
+    - dialogueChoiceText: oui
+      followDialogue: {fileID: 11400000, guid: 901975a21ddba4c4885b897905932368, type: 2}
+    - dialogueChoiceText: non
+      followDialogue: {fileID: 11400000, guid: b7c17e555def3c14ead5b01163a13599, type: 2}
+  endDialogue: {fileID: 11400000, guid: b7c17e555def3c14ead5b01163a13599, type: 2}
